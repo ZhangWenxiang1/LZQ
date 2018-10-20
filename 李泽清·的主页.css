@@ -1,0 +1,226 @@
+a{
+	color: black;
+	text-decoration: none;
+}
+a.a1{
+	color: #1D46FF;
+	text-decoration: none;
+}
+a.a1:hover{
+	color:#05FCEB;
+	text-decoration: none;
+}
+a.a2{
+	color: #1D46FF;
+	text-decoration: none;
+}
+a.a2:hover{
+	color: red;
+	text-decoration:none;
+}
+a.a3{
+	color: #0550FC;
+	text-decoration: none;
+}
+a.a3:hover{
+	color:#FC0606;
+	text-decoration:none;
+}
+a.a4{
+	color: #2D05FB;
+	text-decoration: none;
+}
+a.a4:hover{
+	color:#FC06E1;
+	text-decoration:none;
+}
+#body{
+	z-index: 0;
+	background:url(images/background/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px;
+	background-attachment: fixed;
+}
+.h1{
+	font-style: normal;
+	font-family: 楷书,隶书,宋体;
+	font-size: 50px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.h2{
+	font-family: 隶书;
+	font-size: 40px;
+	text-align: center;
+}
+.p1{
+	font-size: 20px;
+	text-align: center;
+	color: #FB0220;
+}
+.p2{
+	color:#E605FC;
+	font-family: 宋体;
+	font-size: 20px;
+	text-align: center;
+}
+.p3{
+    color:#E605FC;
+	font-family: 宋体;
+	font-size: 30px;
+	text-align: center;
+}
+.u1{
+	text-align: center;
+	list-style-type: none;
+}
+.li1{
+	z-index: 1;
+	width: 115px;
+	height: 34px;
+	font-size: 28px;
+	color:white;
+	font-family: 宋体;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #3F89F6;
+	float: left;
+}
+li.li1:hover{
+	background-color: #065DF4;
+}
+.li2{
+	z-index: 1;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.菜单{
+	z-index: 1;
+	width: 1300px;
+	height: 34px;
+	margin-top: 90px;
+	margin-left: 30px;
+}
+.主体{
+	z-index: 1;
+	width: 1213px;
+	height: 2000px;
+	border: #EEFBFA 1px solid;
+	margin-left: 70px;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+.前言{
+	z-index: 2;
+	width: 1100px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: 45px;
+	padding-top: 10px;
+	padding-left: 20px;
+	background: #DDDCD8;
+}
+.图1{
+	z-index: 2;
+	width: 300px;
+	height: 450px;
+	margin-left: 50px;
+	margin-top: 40px;
+	background: url(images/李泽清/李泽清-5aa0e200e3b8a5ee.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	float: left;
+}
+.图2{
+	z-index: 2;
+	width: 300px;
+	height: 450px;
+	margin-right: 50px;
+	margin-top: 40px;
+	background: url(images/李泽清/李泽清48f90471057d069c.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	float:right;
+}
+.图3{
+	z-index: 2;
+	width: 330px;
+	height: 450px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 40px;
+	background: url(images/李泽清/1526384274581.jpeg);
+	background-size: 120%;
+	float: left;
+/*	border: 1px red solid;*/
+}
+.相册{
+	z-index: 2;
+	width: 800px;
+	height: 70px;
+	font-family: 宋体;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 200px;
+	background: #0CFD02;
+	float: left;
+}
+.相册主体{
+	z-index: 1;
+	width: 1300px;
+	height: 1700px;
+	border: #EEFBFA 1px solid;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: #FFFFFF;	
+}
+.返回{
+	z-index: 2;
+	width: 800px;
+	height: 40px;
+	font-family: 微软雅黑 宋体;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 1620px;
+	margin-left: 250px;
+	background: #05FCF0;
+/*	border: red 1px solid;*/
+}
+.标语{
+	z-index: 2;
+	width: 1100px;
+	height: 100px;
+	float: left;
+	font-family: 楷体;
+	font-size: 60px;
+	margin-top: 100px;
+	margin-left: 60px;
+	text-align: center;
+	background: #B4F1B5;
+}
+.坦克世界{
+	z-index: 2;
+	width: 1000px;
+	height: 600px;
+	background: url(http://att.bbs.duowan.com/forum/201306/18/200850tt5oyxemeetot6mc.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-top: 100px;
+	margin-left: 100px;
+	float: left;
+}
+.坦克世界官网{
+	z-index: 2;
+	width: 1000px;
+	height: 80px;
+	float: left;
+	font-size: 60px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+	background: #C2B5DC;
+	/*border: red 1px solid;*/
+}
+
+
